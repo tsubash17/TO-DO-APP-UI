@@ -1,0 +1,52 @@
+body, html {
+    height: 100%;
+  }
+.background-fill{
+	position:relative;
+	border:1px dsolid red;
+	height:100%;
+	width:100%; 	
+	background-image: url("../Images/page2.png");
+	filter:blur(8px);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
+	
+}
+.add-task-container{
+	width:250px;
+	border:1px solid red;
+	border-radius:3px;
+	text-align:center;
+	padding:20px;
+	font-family: Verdana;
+	box-shadow:5px 5px 3px 0px grey;
+	position:absolute;
+	top:250px;
+	left:525px;
+	z-index:2;
+	background-color:white;
+}
+.new-list{
+	color:red;
+	text-align:center;
+	padding-bottom:20px;
+}
+input{
+	height:20px;
+	width:175px;
+	border:1px solid orangered;
+	box-shadow:3px 3px 3px 0px grey;
+}
+.add-button{
+	height:20px;
+	width:60px;
+	border:0px;
+	border-radius:10px;
+	cursor:pointer;
+	color:white;
+	background-color:red;
+	margin: 15px auto;
+	text-align:center;
+	
+}
